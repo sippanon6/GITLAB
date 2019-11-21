@@ -25,6 +25,7 @@ void main()
     {
       printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
       printf("  You can receive blood from: A, O.\n");
+        printf("You can go hospital and get admit there, good luck");
     }
     else if (strcmp(G, "B") ==0)
     {
