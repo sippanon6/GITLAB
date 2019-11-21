@@ -24,13 +24,13 @@ void main()
     if (strcmp(G,"A") ==0)
     {
       printf("%s, A. Hey, you can give blood to: A, AB.\n", Name);
-      printf("  You can receive blood from: A, O.\n");
+      printf("  You can receive blood from: A, O and quit.\n");
         printf("You can go hospital and get admit there, good luck");
     }
     else if (strcmp(G, "B") ==0)
     {
       printf("%s, B. Well, you can give blood to: B, AB.\n", Name);
-      printf("  You can receive blood from: B, O.\n");
+      printf("  You can receive blood from: B, O and Ood Ood.\n");
     }
     else if (strcmp(G, "AB") == 0)
     {
