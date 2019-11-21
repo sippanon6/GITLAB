@@ -36,8 +36,11 @@ void main()
            minutes > 59); 
     if (hours >=0 && hours <=11)
       printf("Good Morning, "); 
-    else if (hours >= 12 && hours <=18) 
-      printf("Good Afternoon, "); 
+    else if (hours >= 12 && hours <=18)
+    {
+      printf("Good Afternoon, ");
+        printf("I'm hungry. Let's go to have lunch");
+    }
     else 
       printf ("Good Evening, "); 
     printf("%s. Time is %02d:%02d\n", Name, hours,
